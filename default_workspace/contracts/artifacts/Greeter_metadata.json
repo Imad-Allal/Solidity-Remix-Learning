@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "yourName",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/M0hCPETQEeiVcg6irwbSYA_3380421044d011e8afa3f903c9071b9c_Greeter.sol": "Greeter"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/M0hCPETQEeiVcg6irwbSYA_3380421044d011e8afa3f903c9071b9c_Greeter.sol": {
+			"keccak256": "0x3f50fba2254ad2dcc94e5a2ad5cd6eadc0f89cf8b380528614f481e9a6954514",
+			"urls": [
+				"bzzr://fedbfc0355f0abc55d1a919007fa3d579d5743fb4453bf179abda23e1313de4f"
+			]
+		}
+	},
+	"version": 1
+}

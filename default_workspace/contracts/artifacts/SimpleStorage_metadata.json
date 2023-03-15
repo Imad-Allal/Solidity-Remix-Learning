@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "increment",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/M0f01ETQEeigbgqkS_SCag_3384fd0044d011e8af0327b052455519_SimpleStorage.sol": "SimpleStorage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/M0f01ETQEeigbgqkS_SCag_3384fd0044d011e8af0327b052455519_SimpleStorage.sol": {
+			"keccak256": "0x3f0cc8d3bc8c24e38db31faae6dda5dbef3d4e3b99c20fba4cfecc40e286b3e6",
+			"urls": [
+				"bzzr://e2627b79552629dad3136f7ca0a53c3d0d8c8f9870154193fdbe2f7f9453c01a"
+			]
+		}
+	},
+	"version": 1
+}
