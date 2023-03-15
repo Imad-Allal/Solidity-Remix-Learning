@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "The_code_of_the_error",
+						"type": "uint256"
+					}
+				],
+				"name": "ErrorCode",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "Custom_Error_Low_Level_Infos",
+						"type": "bytes"
+					}
+				],
+				"name": "ErrorCustom",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "The_reason_is",
+						"type": "string"
+					}
+				],
+				"name": "ErrorLogged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "handleEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleExceptions.sol": "EventHandler"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleExceptions.sol": {
+			"keccak256": "0x065f5c8a4d8ebed6f837f4cebd94677476f66d02b7825ced8249d2a7e554ce10",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c2ec077701d2444eb46c4e549fb892b1d379f38356f8de8b3014a86f50305d4",
+				"dweb:/ipfs/QmSDjirnGApHRnUv4otms5wtVpuVBixnGA857xJbaBJYcY"
+			]
+		}
+	},
+	"version": 1
+}
